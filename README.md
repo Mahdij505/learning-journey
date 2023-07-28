@@ -10,6 +10,7 @@ This repo includes:
 
 - Code Snippets: In this folder, you can find code snippets that I have written during the process.
 - Projects: Here you can find big and small projects.
+- Home Works : Including all exercises that I have done during the process.
 
 ## License
 
