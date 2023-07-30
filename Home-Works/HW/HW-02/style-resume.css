@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Roboto", "Yekan", sans-serif;
+  color: #343a40;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 50px 200px;
+  margin-top: 100px;
+}
+.img {
+  grid-row: 1/3;
+}
+.name {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  color: #075f44;
+}
+.information {
+  grid-column: 2;
+  display: flex;
+  flex-basis: auto;
+  text-align: right;
+  direction: rtl;
+  gap: 32px;
+  line-height: 3;
+}
+
+.title {
+  color: #075f44;
+}
