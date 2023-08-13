@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#fe99f5, #e569ff);
+  color: #ffebfd;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  background-color: #a459cc;
+  border-radius: 3.2rem;
+  padding: 3.2rem 3.2rem;
+  width: 40rem;
+}
+
+.headshot-img {
+  color: #fff;
+  fill: #a459cc;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 6.4rem;
+  height: 6.4rem;
+  box-shadow: 0.4rem 0.4rem 16px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2.4rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.name {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.description {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.social-container {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.2rem;
+}
+
+.social-container a:link,
+.social-container a:visited,
+.social-container a:hover,
+.social-container a:active {
+  color: #ffebfd;
+}
+
+.social-icons {
+  width: 3.2rem;
+  height: 3.2rem;
+}
