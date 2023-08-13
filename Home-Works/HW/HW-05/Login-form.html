@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Login-style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo-container">
+          <img
+            src="./img/logo.png"
+            alt="Mountain logo"
+            class="logo"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <h1 class="login-text">log in</h1>
+      </header>
+      <main>
+        <ul class="login-inputs">
+          <li class="item-input">
+            <ion-icon name="person" class="input-icon"></ion-icon>
+            <input type="text" placeholder="Username" class="input-text" />
+          </li>
+          <li class="item-input">
+            <ion-icon name="lock-closed" class="input-icon"></ion-icon>
+            <input type="text" placeholder="Password" class="input-text" />
+          </li>
+          <li class="item-input">
+            <input type="checkbox" id="checkbox" class="input-checkbox" />
+            <label for="checkbox">Remeber me</label>
+          </li>
+        </ul>
+        <a href="#" class="login-btn">Login</a>
+      </main>
+      <footer>
+        <p><a href="#" class="forgot">Forgot Password?</a></p>
+      </footer>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+    </div>
+  </body>
+</html>
