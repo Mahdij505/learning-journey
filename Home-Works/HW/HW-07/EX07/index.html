@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Contains all page -->
+      <header class="video-container">
+        <div class="video">
+          <!-- video goes here -->
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/WzWAfdTYvv4"
+            title="Versatile power for work and play -ASUS Chromebook Flip CX3"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </header>
+      <main class="main-container">
+        <!-- list items goes here -->
+        <div class="filters">
+          <!-- filters -->
+          <div class="filter-card">
+            <p>Laptop model:</p>
+            <select name="laptop model" class="filter-option">
+              <option value="">Nothing seleted</option>
+            </select>
+          </div>
+          <div class="filter-card">
+            <p>Processor:</p>
+            <select name="laptop model" class="filter-option">
+              <option value="">Nothing seleted</option>
+            </select>
+          </div>
+          <div class="filter-card">
+            <p>RAM:</p>
+            <button class="filter-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="btn-pin"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 01-.659 1.591l-5.432 5.432a2.25 2.25 0 00-.659 1.591v2.927a2.25 2.25 0 01-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 00-.659-1.591L3.659 7.409A2.25 2.25 0 013 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0112 3z"
+                />
+              </svg>
+              <span>RAM</span>
+            </button>
+          </div>
+          <div class="filter-card">
+            <p>Hard disk:</p>
+            <button class="filter-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="btn-pin"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 01-.659 1.591l-5.432 5.432a2.25 2.25 0 00-.659 1.591v2.927a2.25 2.25 0 01-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 00-.659-1.591L3.659 7.409A2.25 2.25 0 013 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0112 3z"
+                />
+              </svg>
+              <span>Hard disk</span>
+            </button>
+          </div>
+          <div class="filter-card">
+            <p>Display:</p>
+            <select name="laptop model" class="filter-option">
+              <option value="">Nothing seleted</option>
+            </select>
+          </div>
+        </div>
+        <div class="cards">
+          <!-- cards -->
+          <div class="cards-header">
+            <p>Laptop model</p>
+            <p>Picture</p>
+            <p>Pricing</p>
+            <p>Processor</p>
+            <p>RAM</p>
+            <p>Hard disk</p>
+            <p>Display</p>
+            <p>Graphics</p>
+            <p>OS</p>
+            <p>Weight</p>
+            <p>Battery</p>
+            <p>Purchase</p>
+          </div>
+          <div class="card">
+            <p>Acer Chromebook CB3-131-C3SZ</p>
+
+            <img
+              src="./imgs/acer-1.jpg"
+              alt="Acer Chromebook CB3-131-C3SZ image"
+              width="100%"
+              height="100%"
+              class="product-img"
+            />
+
+            <p>Intel Celeron N28440 2.16 GHz</p>
+            <p>2GB DDR3</p>
+            <p>16GB SSD</p>
+            <p>11.6" HD IPS Screen (1366 × 768)</p>
+            <p>Intel HD Graphics</p>
+            <p>Operating System: Chrome OS</p>
+            <p>2.4 lbs</p>
+            <p>9 hours</p>
+            <p class="price">$228</p>
+            <button class="btn-card">Buy now</button>
+          </div>
+          <div class="card">
+            <p>ASUS F556UA-AB32</p>
+            <div>
+              <img
+                src="./imgs/Asus-1.standard"
+                alt="Asus F556UA-AB32 image"
+                width="100%"
+                height="100%"
+                class="product-img"
+              />
+            </div>
+            <p>Intel Core i3 (6th Gen) 6100U 2.3 GHz</p>
+            <p>1600 MHz DDR3L SDRAM 4 GB</p>
+            <p>1TB HDD</p>
+            <p>15.6" 16:9 LED Full HD</p>
+            <p>Intel HD Graphics 520</p>
+            <p>Operating System: Windows</p>
+            <p>5.07 lbs</p>
+            <p>5 hours</p>
+            <p class="price">$1454</p>
+            <button class="btn-card">Buy now</button>
+          </div>
+          <div class="card">
+            <p>Lenovo Flex 4 2-in-1</p>
+            <div>
+              <img
+                src="./imgs/Lenovo-1.avif"
+                alt="Lenovo Flex 4 2-in-1 image"
+                width="100%"
+                height="100%"
+                class="product-img"
+              />
+            </div>
+            <p>Intel Core i7-7500U 2.7 GHz</p>
+            <p>12GB DDR4</p>
+            <p>1TB HDD</p>
+            <p>15.6" 16:9 LED Full HD</p>
+            <p>Intel HD Graphics 620</p>
+            <p>Operating System: Windows</p>
+            <p>4.21 lbs</p>
+            <p>6 hours</p>
+            <p class="price">$754</p>
+            <button class="btn-card">Buy now</button>
+          </div>
+          <div class="card">
+            <p>ASUS VivoBook</p>
+            <div>
+              <img
+                src="./imgs/Asus-2.jpg"
+                alt="ASUS VivoBook
+                 image"
+                width="100%"
+                height="100%"
+                class="product-img"
+              />
+            </div>
+            <p>Intel Core i5-8250U up to 3.4 GHz</p>
+            <p>8GB DDR4</p>
+            <p>1TB HDD</p>
+            <p>14.2" 16:9 LED Full HD</p>
+            <p>Intel HD Graphics 620</p>
+            <p>Operating System: Windows</p>
+            <p>5.07 lbs</p>
+            <p>5 hours</p>
+            <p class="price">$499</p>
+            <button class="btn-card">Buy now</button>
+          </div>
+        </div>
+      </main>
+      <!-- Contains all page -->
+    </div>
+  </body>
+</html>

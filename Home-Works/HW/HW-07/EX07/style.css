@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+/* ////////////////////////
+General configuration
+////////////////////////*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+
+  padding: 4rem 0;
+  background-color: #e9ecef;
+  color: #333;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6rem;
+
+  padding: 12rem;
+}
+
+/* ////////////////////////
+Header
+////////////////////////*/
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  width: 80rem;
+  height: 45rem;
+}
+/* ////////////////////////
+Main container
+////////////////////////*/
+
+.main-container {
+  display: grid;
+  gap: 12rem;
+}
+
+/* ////////////////////////
+Filter
+////////////////////////*/
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 2rem;
+
+  font-size: 1.6rem;
+}
+
+.filter-card {
+  display: grid;
+  gap: 1rem;
+}
+
+.filter-option {
+  background-color: inherit;
+  color: #868e96;
+  font-size: 1.2rem;
+
+  padding: 1.2rem 1rem;
+  padding-right: 8rem;
+
+  border: solid 1px #ced4da;
+  cursor: pointer;
+}
+
+.filter-btn {
+  background-color: #2c84c4;
+  color: #fff;
+  border: none;
+  font-size: 1.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 1rem 5rem;
+  cursor: pointer;
+}
+
+.btn-pin {
+  fill: #fff;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* ////////////////////////
+Cards
+////////////////////////*/
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2.4rem;
+  font-size: 1.4rem;
+}
+
+.cards-header {
+  display: grid;
+  grid-template-columns: repeat(12, 9.6rem);
+  justify-items: center;
+  gap: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  border-bottom: #868e96 solid 1px;
+  padding-bottom: 1.2rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(12, 9.6rem);
+  gap: 1.2rem;
+  align-items: center;
+  justify-items: center;
+
+  text-align: center;
+
+  border-bottom: #ced4da solid 1px;
+  border-top: #ced4da solid 1px;
+  padding: 1.8rem 0;
+}
+
+.btn-card {
+  border: none;
+  color: #fff;
+  background-color: rgb(0, 0, 183);
+  padding: 0.9rem 1.8rem;
+  border-radius: 100000px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.price {
+  font-weight: 600;
+}
