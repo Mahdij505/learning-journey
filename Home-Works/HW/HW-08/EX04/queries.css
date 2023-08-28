@@ -1,0 +1,60 @@
+/* 
+Because of desktop first design approach I use max-width!!
+*/
+
+@media (max-width: 79em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 63.5em) {
+  .contact {
+    grid-column: 2 span;
+  }
+
+  .about {
+    grid-column: 2 span;
+  }
+}
+
+@media (max-width: 44em) {
+  h1 {
+    padding: 0 3rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .hero-description {
+    padding: 0 3rem;
+  }
+  .info-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+  .info-header {
+    grid-column: span 1;
+  }
+
+  .help-description {
+    padding: 0 3rem;
+  }
+
+  .fearture-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 31.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  .info-header {
+    padding: 0 3rem;
+  }
+
+  .help-section h2 {
+    padding: 0 3rem;
+  }
+}
